@@ -1,0 +1,19 @@
+<% include('../layouts/header.ejs') %> 
+
+<h1>User Registration Form</h1>
+
+<form action="" method="post" enctype="multipart/form-data">
+    <input type="text" name="name" placeholder="Enter Name" required>
+    <br><br>
+    <input type="email" name="email" placeholder="Enter email" required>
+    <br><br>
+    <input type="text" name="mno" placeholder="Enter phone" required>
+    <br><br>
+    <input type="file" name="filename" required>
+    <br><br>
+    <input type="password" name="password" placeholder="Enter password" required>
+    <br><br>
+    <input type="submit" value="Register">
+</form>
+
+<% include('../layouts/footer.ejs') %> 

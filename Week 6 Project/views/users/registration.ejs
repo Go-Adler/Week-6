@@ -1,0 +1,28 @@
+<% include('../layouts/header.ejs') %> 
+<h1>User registration form</h1>
+<div style="display: flex; flex-direction: column; width: 50%;">
+    <form action="" method="post" enctype="multipart/form-data" style="display: flex; align-items: flex-start; justify-content: space-between; flex-direction: column; height: 40vh; font-size: 20px;">
+        <div style="display: flex; flex-direction: column;">
+            <label for="">Name</label>
+            <input style="border-radius: 5px; height: 30px; width: 150%;" type="text" name="name" required>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <label for="">Email address</label>
+            <input style="border-radius: 5px; height: 30px; width: 150%;" type="email" name="email" required>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <label for="">Phone</label>
+            <input style="border-radius: 5px; height: 30px; width: 150%;" type="text" name="phoneNumber" >
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <label for="">Profile picture</label>
+            <!-- <input style="border-radius: 5px; height: 30px; width: 150%;" type="file" name="profilePicture" id="" required>
+        </div> -->
+        <div style="display: flex; flex-direction: column;">
+            <label for="">Password</label>
+            <input style="border-radius: 5px; height: 30px; width: 150%;" type="password" name="password" required>
+        </div>
+        <input type="submit" value="register">
+    </form>
+</div>
+<% include('../layouts/header.ejs') %> 
